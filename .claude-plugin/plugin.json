@@ -1,0 +1,56 @@
+{
+  "name": "spec-kitty",
+  "version": "0.11.0",
+  "description": "Spec-driven development workflow for Phenotype — 14 slash commands, kitty-specs lifecycle (constitution → specify → clarify → plan → tasks → implement → review → checklist → analyze → research → status → dashboard → accept → merge).",
+  "author": {
+    "name": "KooshaPari",
+    "url": "https://github.com/KooshaPari"
+  },
+  "homepage": "https://github.com/KooshaPari/spec-kitty",
+  "repository": "https://github.com/KooshaPari/spec-kitty",
+  "license": "MIT",
+  "keywords": [
+    "spec-driven-development",
+    "spec-kitty",
+    "phenotype",
+    "claude-code",
+    "slash-commands",
+    "kitty-specs",
+    "workflow",
+    "agent-orchestration"
+  ],
+  "commands": "./commands",
+  "commands_count": 14,
+  "commands_list": [
+    "spec-kitty.constitution",
+    "spec-kitty.specify",
+    "spec-kitty.clarify",
+    "spec-kitty.plan",
+    "spec-kitty.tasks",
+    "spec-kitty.implement",
+    "spec-kitty.review",
+    "spec-kitty.checklist",
+    "spec-kitty.analyze",
+    "spec-kitty.research",
+    "spec-kitty.status",
+    "spec-kitty.dashboard",
+    "spec-kitty.accept",
+    "spec-kitty.merge"
+  ],
+  "lifecycle": {
+    "phase_0_constitution": "spec-kitty.constitution",
+    "phase_1_specify": "spec-kitty.specify",
+    "phase_2_clarify": "spec-kitty.clarify",
+    "phase_3_plan": "spec-kitty.plan",
+    "phase_4_tasks": "spec-kitty.tasks",
+    "phase_5_implement": "spec-kitty.implement",
+    "phase_6_review": "spec-kitty.review",
+    "phase_7_checklist": "spec-kitty.checklist",
+    "phase_8_analyze": "spec-kitty.analyze",
+    "phase_9_research": "spec-kitty.research",
+    "phase_10_status": "spec-kitty.status",
+    "phase_11_dashboard": "spec-kitty.dashboard",
+    "phase_12_accept": "spec-kitty.accept",
+    "phase_13_merge": "spec-kitty.merge"
+  }
+}

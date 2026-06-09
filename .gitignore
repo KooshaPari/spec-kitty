@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Local plugin cache
+.claude/plugins/
+.worktrees/
+
+# Build artifacts (none today, reserved)
+dist/
+build/
+*.log
